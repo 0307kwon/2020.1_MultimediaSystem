@@ -1,13 +1,13 @@
 # DCT Lossy Compression
 
 # 1. Theory
-## DCT Lossy Compression
+## ● DCT Lossy Compression
 이미지의 압축을 위한 방법입니다.
 * 압축 순서
   1. 2D DCT에 사용될 8x8 DCT basis를 구한다.
   2. 입력 영상을 read 하여 graylevel로 변환한다.
   3. 이미지의 8x8 영역 f(i,j)를 8x8 DCT basis를 이용하여 주파수공간 8x8 F(u,v)로 변환한다.
-## IDCT
+## ● IDCT
 DCT 방식으로 압축된 이미지를 원래 이미지로 되돌리는 작업입니다.
 * IDCT는 DCT 압축 순서의 역순입니다.
 
@@ -84,22 +84,22 @@ DCT 연산에 필요한 basis function을 계산하는 함수입니다.
 F(u,v)를 손실시킬수록 압축해제된 이미지는 원본과 달라집니다. 
 
 
-<h2>Original Image</h2>
+<h2>● Original Image</h2>
 <img src="./image01.png" width=500>
 <p>F(u,v) 그대로 사용</p>
 <p>원본 이미지와 완벽히 동일하게 복구되었습니다.</p>
 
-<h2>8x8 F(u,v) Image</h2>
+<h2>● 8x8 F(u,v) Image</h2>
 <img src="./image02.png" width=500>
 <p>F(u,v) 8x8 그대로 압축 해제</p>
 <p>원본과 완벽히 일치합니다.</p>
 
-<h2>4x4 F(u,v) Image</h2>
+<h2>● 4x4 F(u,v) Image</h2>
 <img src="./image03.png" width=500>
 <p>F(u,v) 좌상단 4x4 만 남기고 0으로 바꾼후 압축 해제</p>
 <p>일부가 손실되었습니다.</p>
 
-<h2>2x2 F(u,v) Image</h2>
+<h2>● 2x2 F(u,v) Image</h2>
 <img src="./image04.png" width=500>
 <p>F(u,v) 좌상단 2x2 만 남기고 0으로 바꾼후 압축 해제</p>
 <p>원본과 비교하여 많이 손실되었습니다.</p>
