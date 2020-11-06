@@ -63,6 +63,9 @@ float laplacian_threshold = 20.0; // 쓰레시 홀드 20을 사용
 # 3. Result
 Gaussian blur의 인자인 sigma를 증가시킬수록 smoothing이 더 크게 일어납니다.
 sigma를 1~5까지 변화시키며 결과를 테스트했습니다.
-## Original image
+<h2>Original image</h2>
+<img src="./image01.png" width=450px>
+<h2>Apply LoG</h2>
+<img src="./image02.png" width=900px>
 
 
