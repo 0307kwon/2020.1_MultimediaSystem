@@ -71,10 +71,10 @@ for (y = 0; y < output->rows; y++)
 color image -> gray scale image -> dithered image 순서로 진행하였습니다.
 
 ## color image
-<img src="./image01.png" width=300px>
+<img src="./image01.png" width=450px>
 ## gray scale image
-<img src="./image02.png" width=300px>
+<img src="./image02.png" width=450px>
 ## dithered image
-<img src="./image03.png" width=300px>
+<img src="./image03.png" width=450px>
 
 
