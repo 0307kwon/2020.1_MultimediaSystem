@@ -12,7 +12,7 @@ DCT 방식으로 압축된 이미지를 원래 이미지로 되돌리는 작업�
 * IDCT는 DCT 압축 순서의 역순입니다.
 
 # 2. Code
-## Mat* DCTcompression(Mat& image)
+## 함수 : Mat* DCTcompression(Mat& image)
 DCT 압축을 위한 함수입니다. 압축 결과를 Mat* 형태로 반환합니다.
 1. ( line 45 ~ 65 )
 전체 이미지를 8x8씩 잘라서 각각 DCT를 적용합니다.
@@ -39,7 +39,7 @@ for (int y = 0; y < image.rows; y += 8) {
 			}
 		}
 ```
-## Mat* IDCTcompression(Mat& image, int compression_ratio)
+## 함수 : Mat* IDCTcompression(Mat& image, int compression_ratio)
 DCT 방식으로 압축된 이미지를 원 이미지로 만듭니다.
 * 인자
   * image : 압축된 입력 이미지
@@ -71,7 +71,7 @@ for (int y = 0; y < image.rows; y += 8) {
 			}
 		}
 ```
-## double DCTbasis(int u, int v, int i, int j)
+## 함수 : double DCTbasis(int u, int v, int i, int j)
 DCT 연산에 필요한 basis function을 계산하는 함수입니다. 
 
 # 3. Result
