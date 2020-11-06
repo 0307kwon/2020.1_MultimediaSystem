@@ -72,6 +72,9 @@ color image -> gray scale image -> dithered image 순서로 진행하였습니�
 
 ## color image
 <img src="./image01.png" width=150px>
-
+## gray scale image
+<img src="./image02.png" width=150px>
+## dithered image
+<img src="./image03.png" width=150px>
 
 
