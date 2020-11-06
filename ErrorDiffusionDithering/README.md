@@ -1,0 +1,3 @@
+#Error Diffusion Dithering
+
+# 
