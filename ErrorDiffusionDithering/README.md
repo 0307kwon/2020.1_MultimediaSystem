@@ -68,3 +68,13 @@ for (y = 0; y < output->rows; y++)
 	}
 ```
 # 3. Result
+color image -> gray scale image -> dithered image 순서로 진행하였습니다.
+
+<h2>color image</h2>
+<img src="./image01.png" width=450px>
+<h2>gray scale image</h2>
+<img src="./image02.png" width=450px>
+<h2>dithered image</h2>
+<img src="./image03.png" width=450px>
+
+
