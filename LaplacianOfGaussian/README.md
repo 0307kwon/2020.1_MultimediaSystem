@@ -70,6 +70,7 @@ sigma를 1~5까지 변화시키며 결과를 테스트했습니다.
 <p>sigma=1,sigma=2</p>
 <p>sigma=3,sigma=4</p>
 <p>sigma=5 입니다.</p>
+<p>sigma가 커질수록 선명한 선만 살아남는 것을 볼 수 있습니다.</
 <img src="./image02.png" width=900px>  
 
 
