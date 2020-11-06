@@ -86,19 +86,21 @@ F(u,v)를 손실시킬수록 압축해제된 이미지는 원본과 달라집니
 
 <h2>Original Image</h2>
 <img src="./image01.png" width=500>
-<h2>F(u,v) 그대로 사용</h2>
+<p>F(u,v) 그대로 사용</p>
 <p>원본 이미지와 완벽히 동일하게 복구되었습니다.</p>
-<h2>4x4 F(u,v) Image</h2>
 
+<h2>8x8 F(u,v) Image</h2>
 <img src="./image02.png" width=500>
-<h2>F(u,v) 8x8 그대로 압축 해제</h2>
+<p>F(u,v) 8x8 그대로 압축 해제</p>
 <p>원본과 완벽히 일치합니다.</p>
 
+<h2>4x4 F(u,v) Image</h2>
 <img src="./image03.png" width=500>
-<h2>F(u,v) 좌상단 4x4 만 남기고 0으로 바꾼후 압축 해제</h2>
+<p>F(u,v) 좌상단 4x4 만 남기고 0으로 바꾼후 압축 해제</p>
 <p>일부가 손실되었습니다.</p>
 
+<h2>2x2 F(u,v) Image</h2>
 <img src="./image04.png" width=500>
-<h2>F(u,v) 좌상단 2x2 만 남기고 0으로 바꾼후 압축 해제</h2>
+<p>F(u,v) 좌상단 2x2 만 남기고 0으로 바꾼후 압축 해제</p>
 <p>원본과 비교하여  손실되었습니다.</p>
 
