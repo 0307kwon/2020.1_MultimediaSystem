@@ -2,14 +2,14 @@
 이미지에서 경계를 찾는 method를 사용해봅니다.
 
 # 1. Theory
-## ■ Laplacian Of Gaussian(LoG)
+## ● Laplacian Of Gaussian(LoG)
 Gaussian blur와 Laplacian filter 합친 용어.
 Laplacian filter를 사용하기 위해서는 Gaussian blur를 이미지에 먼저 적용시켜야 효과적입니다.
-## ■ Laplacian filter
+## ● Laplacian filter
 이미지에서 경계를 찾아내는 방법(edge detection) 중 하나입니다.
-## ■ Gaussian blur
+## ● Gaussian blur
 이미지를 smoothing(경계를 흐릿하게 만듦)하는 방법입니다.
-## ■ zero crossing
+## ● zero crossing
 이미지의 픽셀값이 0인 부분만 gray scale를 최대로 주고 나머지 부분은 모두 scale을 0으로 주는 방법입니다.
 LoG 이후 zero crossing을 해주어야 경계가 뚜렷히 보입니다. 
 
@@ -63,9 +63,9 @@ float laplacian_threshold = 20.0; // 쓰레시 홀드 20을 사용
 # 3. Result
 Gaussian blur의 인자인 sigma를 증가시킬수록 smoothing이 더 크게 일어납니다.
 sigma를 1~5까지 변화시키며 결과를 테스트했습니다.
-<h2>■ Original image</h2>
+<h2>● Original image</h2>
 <img src="./image01.png" width=450px>
-<h2>■ Apply LoG</h2>
+<h2>● Apply LoG</h2>
 <p>왼쪽 위부터 오른쪽 순으로</p>
 <p>sigma=1,sigma=2</p>
 <p>sigma=3,sigma=4</p>
