@@ -66,10 +66,10 @@ sigma를 1~5까지 변화시키며 결과를 테스트했습니다.
 <h2>Original image</h2>
 <img src="./image01.png" width=450px>
 <h2>Apply LoG</h2>
-왼쪽 위부터 오른쪽 순으로   
-sigma=1,sigma=2    
-sigma=3,sigma=4    
-sigma=5 입니다.    
+<p>왼쪽 위부터 오른쪽 순으로</p>
+<p>sigma=1,sigma=2</p>
+<p>sigma=3,sigma=4</p>
+<p>sigma=5 입니다.</p>
 <img src="./image02.png" width=900px>  
 
 
