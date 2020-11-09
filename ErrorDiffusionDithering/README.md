@@ -2,7 +2,7 @@
 
 # 1. Theory
 ## ● Dithering
-하나의 픽셀이 가지는 밝기의 단계가 많을 수록 이미지의 크기가 커지는데
+하나의 픽셀이 가지는 밝기의 단계가 많을 수록 이미지의 용량이 커지는데
 이를 1bit(두 단계)로 나타낼 수 있도록 하여 용량을 줄이는 일종의 양자화 과정  
 ex) 8bit의 픽셀을 가진 이미지가 있으면 dithering을 통해 이를 1bit의 픽셀로 표현할 수 있다. 
 
@@ -12,8 +12,9 @@ ex) 8bit의 픽셀을 가진 이미지가 있으면 dithering을 통해 이를 1
 
 # 2. Code
 ## 함수 : void make_edd(Mat* output)
-Mat 포인터 output을 인자로 받아 error diffusion dithering을 수행하고
-결과를 output에 저장합니다.
+Mat 포인터 output을 인자로 받아 error diffusion dithering을 수행하고 결과를 output에 저장합니다.
+
+
 1. (line 22 ~ 30)  
 output 인자를 바로 수정하는 것이 아닌
 동일한 크기의 map[][]을 선언하여 output을 map에 복사한 후,
